@@ -1,0 +1,22 @@
+{
+  "name": "pdftron-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "envs": [
+    "PDFTRON_KEY"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@pdftron/pdfnet-node": "^10.8.0-1"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.4"
+  }
+}
